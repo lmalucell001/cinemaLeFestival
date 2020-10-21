@@ -1,11 +1,19 @@
 
+ul{
+    list-style-type: none;
+}
+
 
 .puce{
-    background: white;
+    background: rgb(15, 84, 212);
     border-radius: 50%;
     display: block;
     width: 40px;
     height: 40px;
+    position:relative;
+    z-index:10;
+
+    
 
   }
 
@@ -37,78 +45,6 @@ Fait disparaitre la scrollbar
     display: none; 
 }
 
-/* 
-position des puces
- */
-header {
-position: fixed; 
-left: 0; top: 0; 
-width:100%;
-height: 3.5rem;
-z-index: 10; 
-}
-
-/*
-pour centré les puces
- */
-
-nav {
-width: 100%;
-padding-top: 0.5rem;
-}
-nav ul {
-list-style: none;
-width: inherit; 
-margin: 0; 
-}
-
-
-/*  couleurs des puces 
-ul li:nth-child( 3n + 1), ul li:nth-child( 3n + 2), ul li:nth-child( 3n + 3)  {
-    background: rgb(255, 255, 255);
-    }*/
-    /* couleurs des ecrans (rajouter + )   */
-    #main .panel:nth-child( 3n + 1), #main .panel:nth-child( 3n + 3) {
-        background: rgb(179, 51, 13);
-        }
-
-/* pour que les couleurs reste a gauche  */
-ul li {
-display: inline-block; 
-margin: 0 8px;
-margin: 0 0.5rem;
-padding: 5px 8px;
-padding: 0.3rem 0.5rem;
-border-radius: 2px; 
-line-height: 1.5;
-}
-
-
-/* Les ecran des couleurs  */
-.panel {
-width: 100%;
-height: 100vh;
-z-index:0; 
--webkit-transform: translateZ( 0 );
-transform: translateZ( 0 );
--webkit-transition: -webkit-transform 0.6s ease-in-out;
-transition: transform 0.6s ease-in-out;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-
-}
-/* les panels sont proche est beaux  */
-.panel h1 {
-font-family: sans-serif;
-font-size: 64px;
-font-size: 4rem;
-color: #fff;
-position:relative;
-line-height: 200px;
-top: 33%;
-text-align: center;
-margin: 0;
-}
 
 
 /* le déplacement  */
