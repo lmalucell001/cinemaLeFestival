@@ -8,8 +8,8 @@ ul{
     background: rgb(15, 84, 212);
     border-radius: 50%;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position:relative;
     z-index:10;
 
@@ -20,24 +20,51 @@ ul{
 .puce1{
     position: fixed;
     right: 95%;
-    top: 40%;
+    top: 20%;
   
 }
   
 .puce2{
     position: fixed;
     right: 95%;
-    top: 50%;
+    top: 30%;
   
 }
 
 .puce3{
     position: fixed;
     right: 95%;
+    top: 40%;
+  
+}
+
+.puce4{
+    position: fixed;
+    right: 95%;
+    top: 50%;
+  
+}
+
+.puce5{
+    position: fixed;
+    right: 95%;
     top: 60%;
   
 }
 
+.puce6{
+    position: fixed;
+    right: 95%;
+    top: 70%;
+  
+}
+
+.puce7{
+    position: fixed;
+    right: 95%;
+    top: 80%;
+  
+}
 /*
 Fait disparaitre la scrollbar
  */
