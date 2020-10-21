@@ -1,17 +1,17 @@
 
 ul{
     list-style-type: none;
+   
 }
 
 
 .puce{
-    background: rgb(15, 84, 212);
     border-radius: 50%;
     display: block;
-    width: 30px;
-    height: 30px;
     position:relative;
     z-index:10;
+    margin-right: 10px ;
+    
 
     
 
