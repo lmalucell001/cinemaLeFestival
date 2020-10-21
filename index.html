@@ -9,7 +9,10 @@
         content="Site du Cinéma LeFestival de Bègles. Programmation des films et événements, horaires et services" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
     <link rel="stylesheet" href="./css/style.css" /> 
+    <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="css/puce.css">  
     <link rel="stylesheet" href="./css/index.css" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
@@ -17,38 +20,48 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
        
 
-
+</head>
 <body>
+
+
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="#ecran1" class="puce puce1"> </a> </li>
-                <li><a href="#ecran2" class="puce puce2"> </a> </li>
-                <li><a href="#ecran3" class="puce puce3"> </a> </li>
-            </ul>
-        </nav>
+
 
 
         <div class="content">
             <div class="row">
                 <!--le menu-->
                 <div class="col">
-                    <p>Programmation</p>
+                    <section class="buttons">
+                        <a href="https://twitter.com/Dave_Conner" class="btn btn-1">Programmation</a> 
                 </div>
                 <div class="col">
-                    <p>Ateliers</p>
+                    <section class="buttons">
+                        <a href="https://twitter.com/Dave_Conner" class="btn btn-1">Ateliers</a> 
                 </div>
                 <div class="col">
-                    <p>Notre cinéma</p>
+                    <section class="buttons">
+                        <a href="https://twitter.com/Dave_Conner" class="btn btn-1">Notre Cinéma</a> 
                 </div>
                 <div class="col">
-                    <p>Contact</p>
+                    <section class="buttons">
+                        <a href="https://twitter.com/Dave_Conner" class="btn btn-1">Contact</a> 
                 </div>
                 <div class="col"><img src=Img-logo\logo.png title="Notre logo" alt="Notre logo"></div>
                 <!--ici le logo-->
             </div>
         </div>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="#ecran1" class="puce puce1"> </a> </li>
+            <li><a href="#ecran2" class="puce puce2"> </a> </li>
+            <li><a href="#ecran3" class="puce puce3"> </a> </li>
+        </ul>
+    </nav>
+    
     <div class="content">
         <div class="row">
             <div class="col">
@@ -60,16 +73,23 @@
 
         <div class="row">
             <div class="col">
-                <h2>Nos Films à l'affiche</h2>
+                <h2 id="ecran1">Nos Films à l'affiche</h2>
                 <div class="row"></div> <!-- div avec le boostrap-->
                 <p>Voir plus de films</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="ecran1">Nos Evenement</h2>
+                <div class="row"></div> <!-- div avec le boostrap-->
+                <p>Voir plus d'évenement'</p>
             </div>
         </div>
     
 
         <div class="row">
         <div class="col">
-        <h2>Notre Cinéma</h2>
+        <h2 id="ecran2">Notre Cinéma</h2>
         <div class="col">
             <div class="row">
                 <h3>Ici vous pouvez retrouver des informations au sujet de notre cinéma</h3>
@@ -102,7 +122,7 @@
                    
         <div class="row">
         <div class="col">
-            <h2>Nos Services</h2>
+            <h2 id="ecran3">Nos Services</h2>
             <div class="row">
                 <!-- div avec les boutons-->
                 <div class="col">
