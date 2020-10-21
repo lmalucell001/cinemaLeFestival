@@ -40,7 +40,6 @@ p {
 
 }
 
-<<<<<<< HEAD
 .content {
     
 }
@@ -66,5 +65,10 @@ p {
 width:100%;
 max-width:50px;
 }
-=======
->>>>>>> 154eb5c71b31e3b396d4a9d00266aa6df6b7c4b2
+span.blockservice{
+    display: flex;
+    position: relative;
+    width: 155px;
+    height: 155px;
+    background-color: #fff5d6; 
+}
