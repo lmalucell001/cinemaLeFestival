@@ -5,10 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Cinéma le Festival</title>
-    <meta name="description" content="" />
+    <meta name="description"
+        content="Site du Cinéma LeFestival de Bègles. Programmation des films et événements, horaires et services" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <link rel="stylesheet" href="puce.css">
+
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
@@ -40,7 +41,7 @@
                 <div class="col">
                     <p>Contact</p>
                 </div>
-                <div class="col"><img src=Img-logo\logo.png title="Notre logo"></div>
+                <div class="col"><img src=Img-logo\logo.png title="Notre logo" alt="Notre logo"></div>
                 <!--ici le logo-->
             </div>
         </div>
@@ -55,19 +56,36 @@
         </div>
 
         <div class="row">
-            <h2>Nos Films à l'affiche</h2>
-            <div class="row"></div> <!-- div avec le boostrap-->
-            <p>Voir plus de films</p>
+            <div class="col">
+                <h2>Nos Films à l'affiche</h2>
+                <div class="row"></div> <!-- div avec le boostrap-->
+                <p>Voir plus de films</p>
+            </div>
         </div>
+    
 
         <div class="row">
-            <h2>Nos Événements</h2>
-            <div class="row"></div> <!-- div avec le boostrap2-->
-            <p>Voir plus d'événement</p>
-        </div>
-
         <div class="col">
-            <h2>Nos Services</h2>
+        <h2>Notre Cinéma</h2>
+        <div class="col">
+            <div class="row">
+                <h3>Ici vous pouvez retrouver des informations au sujet de notre cinéma</h3>
+            </div>
+            <div class="row">
+                <p>Situé à la barrière de Bègles, ''Le Festival'' propose des prix abordables pour tous, des séances
+                    à partir de 5€, mais également des soirées à thème, des séances déguisées, des possibilités pour
+                    les enfants de fêter leur anniversaire, des tournois Mario Kart… sans oublier le festival
+                    international du film d'animation ''Les Nuits Magiques'' ainsi que le festival du film
+                    d'animation pour la petite enfance ''Les P'tits Cartooneurs'' !</p>
+                </div>
+            <div class="row">
+                <ul>
+                    <li>Deux salles Paul GRIMAULT et René LALOUX (290 et 78 places)</li>
+                    <li>Accès handicapés</li>
+                    <li>35 mm</li>
+                    <li>3D</li>
+                </ul>
+            </div>
             <div class="row">
                 <!-- div avec les boutons-->
                 <div class="col">
@@ -84,35 +102,39 @@
                 </div>
             </div>
         </div>
+    
+        <div class="col">
+            <img src = img-logo\image-cine.jpg
+            title = "notre cinéma"
+            alt ="notre cinéma">
+        </div>
+        </div>
+    </div>
 
-        <div>
+                   
+        <div class="row">
+        <div class="col">
+            <h2>Nos Services</h2>
             <div class="row">
-                <!-- div avec le text, celui de martin-->
-                <h2>Notre Cinéma</h2>
-                <img src=img-logo\image-cine.jpg title="notre cinéma">
-                <div class="row">
-                    <h3>Ici vous pouvez retrouver des informations au sujet de notre cinéma</h3>
+                <!-- div avec les boutons-->
+                <div class="col">
+                    <p>Initiation dessin animés</p>
                 </div>
-                <div class="row">
-                    <p>Situé à la barrière de Bègles, ''Le Festival'' propose des prix abordables pour tous, des séances
-                        à partir de 5€, mais également des soirées à thème, des séances déguisées, des possibilités pour
-                        les enfants de fêter leur anniversaire, des tournois Mario Kart… sans oublier le festival
-                        international du film d'animation ''Les Nuits Magiques'' ainsi que le festival du film
-                        d'animation pour la petite enfance ''Les P'tits Cartooneurs'' !</p>
+                <div class="col">
+                    <p>Stage réalisation</p>
                 </div>
-                <div class="row">
-                    <p>Deux salles Paul GRIMAULT et René LALOUX
-                        (290 et 78 places) ; Accès handicapés ; 35 mm ; 3D</p>
+                <div class="col">
+                    <p>Projection à la demande</p>
                 </div>
-                <div class="row">
-                    <p>Autant de bonnes raisons de venir
-                        au cinéma ''Le Festival'' ! </p>
+                <div class="col">
+                    <img src=img-logo\Flech-lien.png title="voir plus de services" alt="voir plus de services">
                 </div>
-                <p></p>
             </div>
+        </div>
+    </div>
 
-            <div>
-                <div>
+            <div class="row">
+                <div class= "col">
                     <!-- div contact-->
                     <h2>Nos Contacts </h2>
                     <div>
@@ -133,29 +155,29 @@
                 </div>
             </div>
 
-            <div>
+            <div class="row">
                 <!--div avec la team cinema-->
                 <h2>Notre équipe : </h2>
                 <div>
-                    <div>
+                    <div class= "col">
                         <h3>Fabrice de la ROSA</h3>
-                        <img src=img-portrait\1.jpg title="Fabrice de la ROSA">
+                        <img src=img-portrait\1.jpg title="Fabrice de la ROSA" alt="Fabrice de la ROSA">
                         <p>Directeur & programmateur
                             Bureau administratif
                             Cofondateur de Flip-Book
                             Et passionné d'animation</p>
                     </div>
-                    <div>
+                    <div class= "col">
                         <h3>Severine</h3>
-                        <img src=img-portrait\3.jpg title="Severine">
+                        <img src=img-portrait\3.jpg title="Severine" alt="Séverine">
                         <p>Projectionniste & Animatrice
                             Cinéma "Le Festival"
                             Chef d'ateliers
                         </p>
                     </div>
-                    <div>
+                    <div class= "col">
                         <h3>Christoph Jule</h3>
-                        <img src=img-portrait\2.jpg title="Christoph Jule">
+                        <img src=img-portrait\2.jpg title="Christoph Jule" alt title="Christoph Jule">
                         <div>
                             <p>Projectionniste & Animateur
                                 Cinéma "Le Festival"
@@ -166,37 +188,40 @@
                 </div>
             </div>
         </div>
-    </div>
+    
+</div>
+    
 
     <footer>
-        <div>
+        <div class="content">
+        <div class="row">
             <!--les boutons menu-->
-            <div>
+            <div class= "col">
                 <h3>Programmation </h3>
             </div>
-            <div>
+            <div class= "col">
                 <h3>Notre Cinéma</h3>
             </div>
-            <div>
+            <div class= "col">
                 <h3>Contact</h3>
             </div>
-            <div>
-                <h3>Ateliert</h3>
+            <div class= "col">
+                <h3>Atelier</h3>
             </div>
         </div>
-        <div>
-            <div><img src=img-logo\logo.png title="notre logo"></div>
+        <div class= "row">
+            <div><img src=img-logo\logo.png title="notre logo" alt="notre logo"></div>
             <!--logo-->
             <div></div>
             <!--info-->
             <div></div>
             <div>
-                <img src=img-logo\pngegg_(9).png title="notre page Facebook">
-                <img src=img-logo\pngegg_(10).png title="notre Instagram">
+                <img src=img-logo\pngegg_(9).png title="notre page Facebook" alt="notre page Facebook">
+                <img src=img-logo\pngegg_(10).png title="notre Instagram" alt="notre Instagram">
             </div>
             <!--logo facebook et insta-->
         </div>
-        <div>
+        <div class= "row">
             <p>Si vous avez besoin de nous contacter :
                 09.51.99.04.80 / 05.56.51.76.60
                 contact@cinemalefestival.fr</p>
@@ -207,22 +232,8 @@
                 Web</p>
         </div>
         <!--info-->
-
+    </div>
     </footer>
-
-    <section id="main">
-        <article class="panel" id="ecran1">
-            <h1> ecran 1 </h1>
-        </article>
-
-        <article class="panel" id="ecran2">
-            <h1> ecran 2 </h1>
-        </article>
-
-        <article class="panel" id="ecran3">
-            <h1> ecran 3 </h1>
-        </article>
-    </section>
 
 
 
