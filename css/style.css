@@ -79,4 +79,10 @@ p {
 width:100%;
 max-width:50px;
 }
-
+span.blockservice{
+    display: flex;
+    position: relative;
+    width: 155px;
+    height: 155px;
+    background-color: #fff5d6; 
+}
