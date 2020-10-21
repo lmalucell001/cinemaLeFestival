@@ -19,39 +19,7 @@
 	 text-align: center;
 	 width: 100%;
 }
- .container {
-	 align-items: center;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: center;
-	 padding: 1em;
-	 text-align: center;
-}
- @media (min-width: 600px) {
-	 .container {
-		 flex-direction: row;
-		 justify-content: space-between;
-	}
-}
- h1 {
-	 color: #fff;
-	 font-size: 20px;
-	 font-weight: 900;
-	 margin: 0 0 2em;
-}
- p {
-	 color: #fff;
-	 font-size: 12px;
-}
 
- p a {
-	 background: rgba(255, 255, 255, 0);
-	 border-bottom: 1px solid;
-	 color: #fff;
-	 line-height: 1.4;
-	 padding: 0.25em;
-	 text-decoration: none;
-}
  p a:hover {
 	 background: rgba(255, 255, 255, 1);
 	 color: #e1332d;
