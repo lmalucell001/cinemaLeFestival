@@ -79,7 +79,6 @@ p {
 width:100%;
 max-width:50px;
 }
-<<<<<<< HEAD
 span.blockservice{
     display: flex;
     position: relative;
@@ -87,6 +86,3 @@ span.blockservice{
     height: 155px;
     background-color: #fff5d6; 
 }
-=======
-
->>>>>>> 11e2800396ccb4639f869445501a0a6ee999a0ff
