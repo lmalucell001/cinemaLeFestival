@@ -10,11 +10,7 @@
 	 height: 100%;
 	 width: 100%;
 }
- body {
-	 background: #fff;
-	 font-family: "Monteserrat", sans-serif;
-	 font-weight: 400;
-}
+
  .buttons {
 	 display: flex;
 	 flex-direction: column;
