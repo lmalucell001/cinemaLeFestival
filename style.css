@@ -3,4 +3,32 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-  }
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 45px;
+
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 35px;
+
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+
+}
+
+p {
+    font-family: Domine;
+    font-size: 15px;
+
+}
+
+.content {
+    
+}
