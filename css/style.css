@@ -1,8 +1,4 @@
 
-header {
-    background-color : #9c0a07;
-
-}
 
 
 
@@ -47,7 +43,8 @@ p {
 
 }
 .header {
-    margin-top: 20px
+    padding-top: 20px;
+    background-color : #9c0a07;
 }
 .rightText {
     margin-bottom: 100px;
