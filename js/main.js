@@ -24,26 +24,23 @@ window.addEventListener('scroll', function () {
 
     const mapY = map.getBoundingClientRect().y;
     console.log(mapY)
-
-    if (mapY < -580) {
-        contpuces.classList.add('not-black');
-    }
-
-    else if (mapY < 630) {
+    if (mapY < 630 && mapY > -580) {
         contpuces.classList.add('is-black');
 
     }
 
-
+    else {
+        contpuces.classList.remove('is-black');
+    }
 
 
 
 
 });
 
-/*const btn = document.querySelectorAll('.btnanim');
+//const btn = document.querySelectorAll('.btnanim');
 
-btn.forEach(function (button) {
+/*btn.forEach(function (button) {
     button.addEventListener('click', function (event) {
         event.preventDefault()
         const href = button.getAttribute('href')
