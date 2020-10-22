@@ -15,9 +15,10 @@ ul {
 .puce.is-active {
     background: white;
 }
-.puce.is-black {
+.contpuces.is-black .puce {
     border: 5px solid black;
 }
+
 
 .puce1 {
     position: fixed;
