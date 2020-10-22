@@ -16,8 +16,9 @@
 	 display: flex;
 	 flex-direction: column;
 	 height: 100%;
+	 width: 175px;
 	 text-align: center;
-	 width: 100%;
+	
 	 
 }
 
@@ -33,7 +34,7 @@
 	 font-size: 100%;
 	 font-weight: 100%;
 	 line-height: 100%;
-	 margin: 0 0 2px;
+	 margin: 0 0 50px;
 	 max-width: 150%;
 	 position: relative;
 	 text-decoration: #000;
@@ -42,9 +43,9 @@
 	 height: 100%;
 	 width: 100%;
 }
- @media (min-width: 600px) {
+ @media (min-width: 200px) {
 	 .btn-2 {
-		 margin: 50px 50px 50px;
+		 margin: 100px 50% 100px;
 	}
 }
  .btn-2:hover {
