@@ -30,6 +30,7 @@ h3 {
     font-family: Montserrat;
     font-size: 25px;
     color: #fff;
+    margin-top: 50px;
     margin-bottom: 100px;
     line-height: 45px;
 
@@ -130,5 +131,9 @@ span.blockservice{
 .big {
     margin-left: 149px;
     margin-top: 50px ;
+    margin-bottom: 50px
+}
+img {
+    
     margin-bottom: 50px
 }
