@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
  * {
 	 box-sizing: inherit;
 	 transition-property: all;
@@ -12,19 +12,22 @@
 }
 
  .buttons2 {
+	 border-radius: 25px;
 	 display: flex;
 	 flex-direction: column;
 	 height: 100%;
-	 justify-content: center;
 	 text-align: center;
 	 width: 100%;
+	 
 }
 
  p a:hover {
+	border-radius: 25px;
 	 background: rgba(0, 0, 0, 1);
 	 color: #FFF5D6;
 }
  .btn-2 {
+	border-radius: 25px;
 	 color: #FFF5D6;
 	 cursor: pointer;
 	 font-size: 100%;
@@ -33,33 +36,36 @@
 	 margin: 0 0 2px;
 	 max-width: 150%;
 	 position: relative;
-	 text-decoration: none;
+	 text-decoration: #000;
+	 text-decoration-color:red ;
 	 text-transform: uppercase;
 	 height: 100%;
 	 width: 100%;
 }
  @media (min-width: 600px) {
 	 .btn-2 {
-		 margin: 0 50px 2px;
+		 margin: 50px 50px 50px;
 	}
 }
  .btn-2:hover {
 	 text-decoration: none;
+	 border-radius: 25px;
 }
  .btn-3 {
-	 background: #e3403a;
-	 border: 1px solid #da251f;
-	 box-shadow: 0px 2px 0 #d6251f, 2px 4px 6px #e02a24;
+	border-radius: 25px;
+	 background: #FFF5D6;
+	 border: 5px solid #000;
 	 font-weight: 900;
 	 letter-spacing: 1px;
 	 transition: all 150ms linear;
 }
  .btn-3:hover {
-	 background: #e02c26;
+	border-radius: 25px;
+	 background: #ffffff;
 	 border: 1px solid rgba(0, 0, 0, 0.05);
 	 box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
 	 color: #ec817d;
 	 text-decoration: none;
-	 text-shadow: -1px -1px 0 #c2211c;
+	 text-shadow: -1px -1px 0 #FFF5D6;
 	 transition: all 250ms linear;
 }

@@ -93,4 +93,9 @@ span.blockservice{
 }
 .distantdos {
     margin-left: 248px;
+    padding-left: 100px;
+}
+.BS {
+    font-family: Domine;
+    color : black;
 }
