@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" container="IE=edge,chrome=1" />
     <title>Cinéma le Festival</title>
     <meta name="description"
-        content="Site du Cinéma LeFestival de Bègles. Programmation des films et événements, horaires et services" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        container="Site du Cinéma LeFestival de Bègles. Programmation des films et événements, horaires et services" />
+    <meta name="viewport" container="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
     <link rel="stylesheet" href="./css/style.css" /> 
@@ -30,8 +30,8 @@
 
 
 
-        <div class="content">
-            <div class="row">
+        <div class="container-fluide">
+            <div class="row" id="menu">
                 <!--le menu-->
                 <div class="col">
                     <section class="buttons">
@@ -50,7 +50,9 @@
                     <section class="buttons">
                         <a href="https://twitter.com/Dave_Conner" class="btn btn-1"><p>Contact</p></a> 
                 </div>
-                <div class="col"><img src=Img-logo\logo.png title="Notre logo" alt="Notre logo"></div>
+                <div class="col">
+                    <img src=Img-logo\logo.png title="Notre logo" alt="Notre logo">
+                </div>
                 <!--ici le logo-->
             </div>
         </div>
@@ -58,18 +60,18 @@
 
     <nav>
         <ul>
-            <li><a href="#ecran1" class="puce puce1"> <img src=img-puce\pucev.png> </a> </li>
-            <li><a href="#ecran2" class="puce puce2"> <img src=img-puce\pucev.png></a> </li>
-            <li><a href="#ecran3" class="puce puce3"> <img src=img-puce\pucev.png></a> </li>
-            <li><a href="#ecran4" class="puce puce4"> <img src=img-puce\pucev.png></a> </li>
-            <li><a href="#ecran5" class="puce puce5"> <img src=img-puce\pucev.png></a> </li>
-            <li><a href="#ecran6" class="puce puce6"> <img src=img-puce\pucev.png></a> </li>
-            <li><a href="#ecran7" class="puce puce7"> <img src=img-puce\pucev.png></a> </li>
+            <li><a href="#ecran1" class="puce puce1"> </a> </li>
+            <li><a href="#ecran2" class="puce puce2"> </a> </li>
+            <li><a href="#ecran3" class="puce puce3"> </a> </li>
+            <li><a href="#ecran4" class="puce puce4"> </a> </li>
+            <li><a href="#ecran5" class="puce puce5"> </a> </li>
+            <li><a href="#ecran6" class="puce puce6"> </a> </li>
+            <li><a href="#ecran7" class="puce puce7"> </a> </li>
 
         </ul>
     </nav>
     
-    <div class="content">
+    <div class="container">
         <div class="row">
             <div class="col" id="rightText">
                 <!-- texte de bienvenu-->
@@ -93,7 +95,45 @@
             </div>
         </div>
     
-
+        <div class="row">
+            <div class="col">
+                <h2 id="ecran4">Nos Services</h2>
+                <div class="row">
+                    
+                    <!-- div avec les boutons-->
+                    <div class="col">
+                        <section class="buttons2">
+                            <span class="btn-2 btn-3">
+                                <p>Initiation dessin animés</p>
+                            </span>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="buttons2">
+                            <span class="btn-2 btn-3">
+                                <p>Stage réalisation</p>
+                            </span>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="buttons2">
+                            <span class="btn-2 btn-3">
+                                <p>Projection à la demande</p>
+                            </span>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="buttons2">
+                            <span class="btn-2 btn-3">
+                                <img src=img-logo\Flech-lien.png title="voir plus de services" alt="voir plus de services">
+                            </span>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluide">
         <div class="row">
         <div class="col">
         <h2 id="ecran3">Notre Cinéma</h2>
@@ -110,10 +150,10 @@
                 </div>
             <div class="row" id="rightText">
                 <ul>
-                    <li>Deux salles Paul GRIMAULT et René LALOUX (290 et 78 places)</li>
-                    <li>Accès handicapés</li>
-                    <li>35 mm</li>
-                    <li>3D</li>
+                    <li><p>Deux salles Paul GRIMAULT et René LALOUX (290 et 78 places)</p></li>
+                    <li><p>Accès handicapés</p></li>
+                    <li><p>35 mm</p></li>
+                    <li><p>3D</p></li>
                 </ul>
             </div>
             <div class="row" id="rightText">
@@ -125,45 +165,10 @@
             <img src = img-logo\image-cine.jpg title = "notre cinéma" alt ="Cienam LeFestival" class="cinemaLateral">
         </div>
     </div>
+    
 
                    
-        <div class="row">
-        <div class="col">
-            <h2 id="ecran4">Nos Services</h2>
-            <div class="row">
-                
-                <!-- div avec les boutons-->
-                <div class="col">
-                    <section class="buttons2">
-                        <span class="btn-2 btn-3">
-                            <p>Initiation dessin animés</p>
-                        </span>
-                    </section>
-                </div>
-                <div class="col">
-                    <section class="buttons2">
-                        <span class="btn-2 btn-3">
-                            <p>Stage réalisation</p>
-                        </span>
-                    </section>
-                </div>
-                <div class="col">
-                    <section class="buttons2">
-                        <span class="btn-2 btn-3">
-                            <p>Projection à la demande</p>
-                        </span>
-                    </section>
-                </div>
-                <div class="col">
-                    <section class="buttons2">
-                        <span class="btn-2 btn-3">
-                            <img src=img-logo\Flech-lien.png title="voir plus de services" alt="voir plus de services">
-                        </span>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
             <div class="row">
                 <div class= "col">
@@ -219,13 +224,14 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
+</div>
     
 </div>
     
 
     <footer  id="ecran7">
-        <div class="content">
+        <div class="container">
         <div class="row">
             <!--les boutons menu-->
             <div class= "col">
