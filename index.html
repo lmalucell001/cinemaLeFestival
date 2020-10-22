@@ -14,6 +14,10 @@
         
     <link rel="stylesheet" type="text/css" href="./caroussel_res/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./caroussel_res/slick/slick-theme.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="./css/reset.css" />
+>>>>>>> 9bfa1c5c3b3429f9b89a736ef2bee7e052274bf2
     <link rel="stylesheet" href="./css/buttons.css" />
     <link rel="stylesheet" href="css/puce.css">  
     <link rel="stylesheet" href="./css/index.css" /> 
@@ -67,10 +71,12 @@
 </head>
 
 <body>
-
+    <header>
         <div class="container-fluid menu">
             <div class="row" >
+                <div>
                 <!--le menu-->
+                <div class="row men1">
                 <div class="col">
                     <section class="buttons">
 
@@ -96,9 +102,13 @@
                             <p>Contact</p>
                         </a>
                 </div>
-                <div class="col">
+            </div>
+                <div class="row men2">
+                    <div class="col">
                     <img src=Img-logo\logo.png title="Notre logo" alt="Notre logo">
                 </div>
+                </div>
+            </div>
                 <!--ici le logo-->
             </div>
         </div>
@@ -160,45 +170,46 @@
                         </div>
                       </section>
                 </div> <!-- div avec le boostrap-->
-                <p>Voir plus de films</p>
+                <a href= ""><p class="minLink">Voir plus de films</p></a>
+                <p class="minLink"></p>
             </div>
         </div>
         <div class="row">
             <div class="col" >
-                <h2 id="ecran2"  class="title-anchor distantdos">Nos Evenement</h2>
+                <h2 id="ecran2"  class="title-anchor distantdos ">Nos Evenement</h2>
                 <div class="row"></div> <!-- div avec le boostrap-->
-                <p>Voir plus d'évenement'</p>
+                <a href= ""><p class="minLink">Voir plus d'évenement</p></a>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row ">
             <div class="col">
                 <h2 id="ecran3" class="title-anchor distantdos">Nos Services</h2>
                 <div class="row">
 
                     <!-- div avec les boutons-->
-                    <div class="col">
-                        <section class="buttons2">
-                            <span class="btn-2 btn-3">
+                    <div class="col arière2">
+                        <section class="buttons2 ">
+                            <span class="btn-2 btn-3 ">
                                 <p class="BS">Initiation dessin animés</p>
                             </span>
                         </section>
                     </div>
-                    <div class="col">
+                    <div class="col arière2">
                         <section class="buttons2">
                             <span class="btn-2 btn-3">
                                 <p class="BS">Stage réalisation</p>
                             </span>
                         </section>
                     </div>
-                    <div class="col">
+                    <div class="col arière2">
                         <section class="buttons2">
                             <span class="btn-2 btn-3">
                                 <p class="BS">Projection à la demande</p>
                             </span>
                         </section>
                     </div>
-                    <div class="col">
+                    <div class="col arière2">
                         <section class="buttons2">
                             <span class="btn-2 btn-3">
                                 <img src=img-logo\Flech-lien.png title="voir plus de services"
@@ -214,11 +225,11 @@
         <div class="row">
             <div class="col">
                 <h2 id="ecran4" class="title-anchor distantdos">Notre Cinéma</h2>
-                <div class="col">
-                    <div class="row">
-                        <h3>Ici vous pouvez retrouver des informations au sujet de notre cinéma</h3>
+                <div class="col distantuno">
+                    <div class="row ">
+                        <h3>Ici vous pouvez retrouver des informations <br> au sujet de notre cinéma</h3>
                     </div>
-                    <div class="row" id="rightText">
+                    <div class="row rightText" >
                         <p>Situé à la barrière de Bègles, ''Le Festival'' propose des prix abordables pour tous, des
                             séances <br>
                             à partir de 5€, mais également des soirées à thème, des séances déguisées, des possibilités
@@ -228,7 +239,7 @@
                             international du film d'animation ''Les Nuits Magiques'' ainsi que le festival du film<br>
                             d'animation pour la petite enfance ''Les P'tits Cartooneurs'' !</p>
                     </div>
-                    <div class="row" id="rightText">
+                    <div class="row rightText" >
                         <ul>
                             <li>
                                 <p>Deux salles Paul GRIMAULT et René LALOUX (290 et 78 places)</p>
@@ -244,7 +255,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="row" id="rightText">
+                    <div class="row rightText">
                         <p>Autant de bonnes raisons de venir au Cinéma ''Le Festival'' !</p>
                     </div>
                 </div>
@@ -258,7 +269,7 @@
         <div class="col">
             <!-- div contact-->
             <h2 id="ecran5" class="title-anchor distantdos">Nos Contacts </h2>
-            <div>
+            <div class="rightText distantuno">
                 <p>
                     05.56.51.76.60
                     contact@cinemalefestival.fr
@@ -278,10 +289,10 @@
     <div class="row">
         <!--div avec la team cinema-->
 
-        <div class="col">
+        <div class="col rightText">
             <h2 id="ecran6" class="title-anchor distantdos">Notre équipe : </h2>
             <div class="row">
-                <div class="col" id="team">
+                <div class="col arière1" id="team">
                     <h3>Fabrice de la ROSA</h3>
                     <img src=img-portrait\1.png title="Fabrice de la ROSA" alt="Fabrice de la ROSA"
                         class="photoDeProfil">
@@ -290,7 +301,7 @@
                         Cofondateur de Flip-Book
                         Et passionné d'animation</p>
                 </div>
-                <div class="col">
+                <div class="col arière1">
                     <h3>Severine</h3>
                     <img src=img-portrait\3.png title="Severine" alt="Séverine" class="photoDeProfil">
                     <p>Projectionniste & Animatrice
@@ -298,7 +309,7 @@
                         Accueil
                     </p>
                 </div>
-                <div class="col">
+                <div class="col arière1">
                     <h3>Christoph Jule</h3>
                     <img src=img-portrait\2.png title="Christoph Jule" alt title="Christoph Jule" class="photoDeProfil">
                     <div>
