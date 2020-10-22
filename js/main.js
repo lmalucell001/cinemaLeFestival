@@ -24,14 +24,17 @@ window.addEventListener('scroll', function () {
 
     const mapY = map.getBoundingClientRect().y;
     console.log(mapY)
-    if (mapY < 630) {
+
+    if (mapY < -580) {
+        contpuces.classList.add('not-black');
+    }
+
+    else if (mapY < 630) {
         contpuces.classList.add('is-black');
 
     }
 
-    else if (mapY < -580) {
-        contpuces.classList.add('not-black');
-    }
+
 
 
 
