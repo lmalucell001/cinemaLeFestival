@@ -70,7 +70,8 @@ p {
 
 .photoDeProfil{
     border-radius: 100%;
-    width:33%;
+    width:55%;
+    ;
 }
 
 .maps{
@@ -82,6 +83,7 @@ p {
 
 .team {
     display : flex;
+    padding-right: 210px;
 }
 .logo{
     width:100%;
@@ -121,10 +123,6 @@ span.blockservice{
     max-width: 281px ;
 }
 
-.arière2{
-    background-color: black;
-    margin: 10px;
-}
 
 .minLink {
     padding-left: 1100px;
@@ -136,6 +134,8 @@ span.blockservice{
     margin-bottom: 50px
 }
 img {
-    
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
     margin-bottom: 50px
 }
