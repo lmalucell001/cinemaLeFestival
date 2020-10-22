@@ -57,7 +57,8 @@ p {
 }
 
 .photoDeProfil{
-    border-radius: 50%;
+    border-radius: 100%;
+    width:33%;
 }
 
 .maps{
@@ -98,4 +99,8 @@ span.blockservice{
 .BS {
     font-family: Domine;
     color : black;
+}
+.arière1{
+    margin-left: 248px;
+    background-color: black;
 }
