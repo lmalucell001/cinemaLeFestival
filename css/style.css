@@ -1,7 +1,9 @@
 
 
 
-
+#bar {
+    background-color: #E2E1DF;
+}
 
 body {
     background-image: url("../img-logo/background-flatter.png");
@@ -30,6 +32,7 @@ h3 {
     font-family: Montserrat;
     font-size: 25px;
     color: #fff;
+    margin-top: 50px;
     margin-bottom: 100px;
     line-height: 45px;
 
@@ -43,10 +46,7 @@ p {
     
 
 }
-.header {
-    padding-top: 20px;
-    background-color : #9c0a07;
-}
+
 .rightText {
     margin-bottom: 100px;
     line-height: 45px;
@@ -67,7 +67,8 @@ p {
 
 .photoDeProfil{
     border-radius: 100%;
-    width:33%;
+    width:55%;
+    ;
 }
 
 .maps{
@@ -79,32 +80,33 @@ p {
 
 .team {
     display : flex;
+    padding-right: 13.27%;
 }
 .logo{
     width:100%;
-    max-width:50px;
+    max-width:3.16%;
 }
 span.blockservice{
     display: flex;
     position: relative;
-    width: 155px;
+    width: 9.8%;
     height: 155px;
     background-color: #fff5d6; 
 }
 
 
 .container-cinema {
-    padding-left: 50px;
+    padding-left: 3.16%;
 }
 
 .distantuno {
-    margin-left: 149px;
+    margin-left: 9.41%;
     margin-top: 50px ;
     margin-bottom: 100px ;
     
 }
 .distantdos {
-    margin-left: 248px;
+    margin-left: 15.67%;
     margin-top: 50px ;
     margin-bottom: 25px ;
     
@@ -114,21 +116,23 @@ span.blockservice{
     color : black;
 }
 .arière1{
-    margin-left: 248px;
-    max-width: 281px ;
+    margin-left: 15.67%;
+    max-width: 17.75% ;
 }
 
-.arière2{
-    background-color: black;
-    margin: 10px;
-}
 
 .minLink {
-    padding-left: 1100px;
+    padding-left: 69.49%;
 }
 
 .big {
-    margin-left: 149px;
+    margin-left: 9.41%;
     margin-top: 50px ;
+    margin-bottom: 50px
+}
+img {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
     margin-bottom: 50px
 }

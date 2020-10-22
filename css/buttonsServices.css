@@ -15,8 +15,8 @@
 	 border-radius: 25px;
 	 display: flex;
 	 flex-direction: column;
-	 height: 100%;
-	 width: 175px;
+	 height: 99%;
+	 width: 40%;
 	 text-align: center;
 	
 	 
@@ -29,7 +29,7 @@
 }
  .btn-2 {
 	border-radius: 25px;
-	 color: #FFF5D6;
+	 color: rgba(255, 255, 255, 0.2);
 	 cursor: pointer;
 	 font-size: 100%;
 	 font-weight: 100%;
@@ -54,7 +54,7 @@
 }
  .btn-3 {
 	border-radius: 25px;
-	 background: #FFF5D6;
+	 color: rgba(255, 255, 255, 0.2);
 	 border: 5px solid #000;
 	 font-weight: 900;
 	 letter-spacing: 1px;
