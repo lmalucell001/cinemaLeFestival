@@ -6,18 +6,20 @@
 	 transition-timing-function: ease;
 }
  html, body {
-	 box-sizing: border-box;
+	 
 	 height: 100%;
 	 width: 100%;
 }
 
  .buttons {
-	 display: flex;
-	 flex-direction: column;
+	
 	 height: 40%;
-	 justify-content: center;
 	 text-align: center;
 	 width: 75%;
+}
+.menu {
+	margin-left: 500px;
+
 }
 
  p a:hover {
