@@ -1,7 +1,9 @@
 
 
 
-
+#bar {
+    background-color: #E2E1DF;
+}
 
 body {
     background-image: url("../img-logo/background-flatter.png");
