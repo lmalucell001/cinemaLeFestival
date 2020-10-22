@@ -15,8 +15,12 @@ ul {
 .puce.is-active {
     background: white;
 }
-.puce.is-black {
+.contpuces.is-black .puce {
     border: 5px solid black;
+}
+
+.contpuces.not-black .puce {
+    border: 5px solid white;
 }
 
 .puce1 {

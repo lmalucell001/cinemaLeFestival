@@ -12,11 +12,11 @@
 }
 
  .buttons2 {
-	 border-radius: 25px;
+	border-radius: 25px;
 	 display: flex;
 	 flex-direction: column;
-	 height: 100%;
-	 width: 175px;
+	 height: 99%;
+	 width: 40%;
 	 text-align: center;
 	
 	 
@@ -29,12 +29,12 @@
 }
  .btn-2 {
 	border-radius: 25px;
-	 color: #FFF5D6;
+	 color: rgba(255, 255, 255, 0.2);
 	 cursor: pointer;
 	 font-size: 100%;
 	 font-weight: 100%;
 	 line-height: 100%;
-	 margin: 0 0 50	px;
+	 margin: 100% 100% 100% ;
 	 max-width: 150%;
 	 position: relative;
 	 text-decoration: #000;
@@ -43,22 +43,25 @@
 	 height: 100%;
 	 width: 100%;
 }
- @media (min-width: 200px) {
+ @media (min-width: 12.63%) {
 	 .btn-2 {
-		 margin: 100px 50% 100px;
+		 margin: 6.32% 3.16% 6.32%;
 	}
 }
  .btn-2:hover {
 	 text-decoration: none;
-	 border-radius: 25px;
+	 border-radius: 1.58%;
 }
  .btn-3 {
 	border-radius: 25px;
-	 background: #FFF5D6;
+	 color: rgba(255, 255, 255, 0.2);
 	 border: 5px solid #000;
 	 font-weight: 900;
 	 letter-spacing: 1px;
 	 transition: all 150ms linear;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
 }
  .btn-3:hover {
 	border-radius: 25px;
@@ -69,4 +72,7 @@
 	 text-decoration: none;
 	 text-shadow: -1px -1px 0 #FFF5D6;
 	 transition: all 250ms linear;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
 }
