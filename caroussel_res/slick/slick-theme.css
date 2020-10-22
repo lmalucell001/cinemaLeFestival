@@ -93,6 +93,7 @@
 }
 [dir='rtl'] .slick-prev:before
 {
+    background-image: url(Flech-lien_petitD.png);
     content: '→';
 }
 
@@ -107,6 +108,7 @@
 }
 .slick-next:before
 {
+    background-image: url(Flech-lien_petitD.png);
     content: '→';
 }
 [dir='rtl'] .slick-next:before
