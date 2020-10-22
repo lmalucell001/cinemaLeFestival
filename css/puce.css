@@ -1,82 +1,73 @@
-
-ul{
+ul {
     list-style-type: none;
-   
 }
 
-
-.puce{
+.puce {
     border-radius: 50%;
     display: block;
-    position:relative;
-    z-index:10;
+    position: relative;
+    z-index: 10;
     width: 40px;
     height: 40px;
     border: 5px solid white;
-    
+}
 
-    
+.puce.is-active {
+    background: white;
+}
 
-  }
-
-.puce1{
+.puce1 {
     position: fixed;
     right: 95%;
     top: 20%;
-  
 }
-  
-.puce2{
+
+.puce2 {
     position: fixed;
     right: 95%;
     top: 30%;
-  
 }
 
-.puce3{
+.puce3 {
     position: fixed;
     right: 95%;
     top: 40%;
-  
 }
 
-.puce4{
+.puce4 {
     position: fixed;
     right: 95%;
     top: 50%;
-  
 }
 
-.puce5{
+.puce5 {
     position: fixed;
     right: 95%;
     top: 60%;
-  
 }
 
-.puce6{
+.puce6 {
     position: fixed;
     right: 95%;
     top: 70%;
-  
 }
 
-.puce7{
+.puce7 {
     position: fixed;
     right: 95%;
     top: 80%;
-  
 }
+
 /*
 Fait disparaitre la scrollbar
  */
-::-webkit-scrollbar { 
-    display: none; 
+
+::-webkit-scrollbar {
+    display: none;
 }
 
-
-
 /* le déplacement  */
-html{
+
+html {
     scroll-behavior: smooth;
 }
