@@ -30,7 +30,8 @@ h3 {
     font-family: Montserrat;
     font-size: 25px;
     color: #fff;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    line-height: 45px;
 
 }
 
@@ -105,7 +106,7 @@ span.blockservice{
 .distantdos {
     margin-left: 248px;
     margin-top: 50px ;
-    margin-bottom: 100px ;
+    margin-bottom: 25px ;
     
 }
 .BS {
@@ -114,7 +115,7 @@ span.blockservice{
 }
 .arière1{
     margin-left: 248px;
-    background-color: black;
+    max-width: 281px ;
 }
 
 .arière2{
@@ -124,4 +125,10 @@ span.blockservice{
 
 .minLink {
     padding-left: 1100px;
+}
+
+.big {
+    margin-left: 149px;
+    margin-top: 50px ;
+    margin-bottom: 50px
 }
