@@ -70,7 +70,7 @@ p {
 }
 
 .rightText {
-   margin-right: 42%;
+   
 }
 .team {
     display : flex;
@@ -85,4 +85,7 @@ span.blockservice{
     width: 155px;
     height: 155px;
     background-color: #fff5d6; 
+}
+.menu {
+
 }
