@@ -66,9 +66,7 @@ p {
     height:100vh;
 }
 
-.rightText {
-   
-}
+
 .team {
     display : flex;
 }
@@ -83,10 +81,16 @@ span.blockservice{
     height: 155px;
     background-color: #fff5d6; 
 }
-.menu {
 
-}
 
 .container-cinema {
-    padding-left: 100px;
+    padding-left: 50px;
+    padding-right: 500px;
+}
+
+.distantuno {
+    margin-left: 149px;
+}
+.distantdos {
+    margin-left: 248px;
 }
