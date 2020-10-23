@@ -54,8 +54,8 @@ btn.forEach(function (button) {
             panel.classList.add('is-opened')
         })
 
-        setTimeout(function () {
-            document.location.href = href
+       setTimeout(function () {
+           // document.location.href = href
         }, 1000)
 
 
