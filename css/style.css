@@ -189,3 +189,9 @@ span.blockservice{
         background-attachment: fixed;
         background-size: 100% 100%;
 }
+.backtry{
+    background-image: url(./img-logo/team_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
