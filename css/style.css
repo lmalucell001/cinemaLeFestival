@@ -175,7 +175,8 @@ span.blockservice{
     max-width: 60%;
     margin-top : -15%;
     margin-bottom: 15%;
-    margin-right: 15%;
+    margin-right: 50%;
+    margin-left: 12.5%;
 }
 .teamso{
         background-image: url(./img-logo/team_bg.png);
