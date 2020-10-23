@@ -89,6 +89,11 @@ p {
 .team {
     display : flex;
     padding-left: 13.27%;
+    padding-right: 13.27%;
+    background-image: url(./img-logo/team_bg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
 }
 
 .logo{
@@ -158,8 +163,9 @@ span.blockservice{
 .sectitle {
     height: 50vh; text-align: center; padding-top: 5%;
 }
-#ecran1, #ecran2, #ecran3, #ecran5, footer {
+#ecran1, #ecran2, #ecran3, #ecran5, footer, .team, .teamso {
     color : #FFF;
+
 }
 
 .suit {
