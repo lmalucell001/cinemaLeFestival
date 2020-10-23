@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../img-logo/background-flatter.png");
+    background-image: url("../img-logo/background-flatter.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -152,4 +152,15 @@ span.blockservice{
 #ecran1, #ecran2, #ecran3, #ecran5, footer {
     color : #FFF;
 }
+<<<<<<< HEAD
 >>>>>>> cc3172043422c4f84d0fc1a75bcd95d6da4d1125
+=======
+.suit {
+    color: #fff
+}
+
+.serv {
+    height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
+    background-size: 100%;
+}
+>>>>>>> 371c29510431e53f75e8752b557eb31931f4ddc3
