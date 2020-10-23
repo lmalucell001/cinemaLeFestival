@@ -8,19 +8,7 @@ const contpuces = document.querySelector('.contpuces')
 window.addEventListener('scroll', function () {
     let puceActived = false;
 
-    anchors.forEach(function (title, index,) {
-        const titleY = title.getBoundingClientRect().y;
 
-
-        if (titleY > 0 && puceActived === false) {
-            puces[index].classList.add('is-active');
-            puceActived = true;
-        } else {
-            puces[index].classList.remove('is-active');
-        }
-
-
-    });
 
 
 
@@ -28,11 +16,39 @@ window.addEventListener('scroll', function () {
     console.log(mapY)
     if (mapY < 2100 && mapY > -580) {
         contpuces.classList.add('is-black');
+        anchors.forEach(function (title, index,) {
+            const titleY = title.getBoundingClientRect().y;
+    
+    
+            if (titleY > 0 && puceActived === false) {
+                puces[index].classList.add('is-activeb');
+                puceActived = true;
+            } else {
+                puces[index].classList.remove('is-activeb');
+                puces[index].classList.remove('is-active');
+            }
+    
+    
+        });
 
     }
 
     else {
         contpuces.classList.remove('is-black');
+        anchors.forEach(function (title, index,) {
+            const titleY = title.getBoundingClientRect().y;
+    
+    
+            if (titleY > 0 && puceActived === false) {
+                puces[index].classList.add('is-active');
+                puceActived = true;
+            } else {
+                puces[index].classList.remove('is-active');
+                puces[index].classList.remove('is-activeb');
+            }
+    
+    
+        });
     }
 
 
@@ -64,10 +80,17 @@ btn.forEach(function (button) {
 
 // rideau quand la page est chargé 
 
+
+const panels = document.querySelectorAll('.panel')
+setTimeout(function () {
+  panels.forEach((panel) => {
+    panel.classList.remove('is-opened');
+  })
+}, 1000);
+
 /*
 const panels = document.querySelectorAll('.panel')
 console.log('click')
 panels.forEach((panel) => {
 panel.classList.remove('is-opened')})
-
 */

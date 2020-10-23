@@ -121,7 +121,7 @@ span.blockservice{
 }
 
 
-.ariere1{
+.arière1{
     margin-left: 15.67%;
     max-width: 17.75% ;
 }
@@ -138,6 +138,7 @@ span.blockservice{
     margin-top: 50px ;
     margin-bottom: 50px
 }
+
 .tall {
     margin-left: 9.41%;
     margin-top: 50px ;
@@ -153,6 +154,7 @@ span.blockservice{
 #ecran1, #ecran2, #ecran3, #ecran5, footer {
     color : #FFF;
 }
+
 .suit {
     color: #fff
 }
@@ -161,8 +163,10 @@ span.blockservice{
     height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
     background-size: 100%;
 }
+
 .logo{
     max-width: 60%;
     margin-top : -45px;
     margin-bottom: 45px;
 }
+
