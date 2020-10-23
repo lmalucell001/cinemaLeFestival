@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../img-logo/background-flatter.png");
+    background-image: url("../img-logo/background-flatter.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -149,4 +149,12 @@ span.blockservice{
 }
 #ecran1, #ecran2, #ecran3, #ecran5, footer {
     color : #FFF;
+}
+.suit {
+    color: #fff
+}
+
+.serv {
+    height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
+    background-size: 100%;
 }
