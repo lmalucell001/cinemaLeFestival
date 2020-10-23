@@ -1,0 +1,34 @@
+#panels-container {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .panel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 50% 0;
+    transition: 1s;
+    z-index: 12;
+  }
+
+  .panel--left { 
+    transform: translateX(-120%);
+  }
+  
+  .panel--right {
+    border-radius: 0 0 0 50%;
+    right: 50%;
+    transform: translateX(200%);
+
+  } 
+  
+  .panel--right.is-opened {
+    transform: translateX(40%);
+  }
+  
+  
+  .panel--left.is-opened {
+    transform: translateX(-10%);
+  }
+  
