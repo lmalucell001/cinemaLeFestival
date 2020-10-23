@@ -7,6 +7,12 @@
     background-size: 100%   ;
     
 }
+#bar2 {
+
+    background-color: #300000;
+    
+}
+
 
 body {
     background-image: url("../img-logo/background-flatter.jpg");
