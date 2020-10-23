@@ -5,30 +5,27 @@
   
   .panel{
     position: fixed;
-    top: 0;
-    left: 0;
-    border-radius: 0 0 50% 0;
     transition: 1s;
     z-index: 12;
   }
 
   .panel--left { 
-    transform: translateX(-120%);
+    transform: translateX(-100%);
+    left: 0;
   }
   
   .panel--right {
-    border-radius: 0 0 0 50%;
-    right: 50%;
-    transform: translateX(200%);
+    right: 0;
+    transform: translateX(100%);
 
   } 
   
   .panel--right.is-opened {
-    transform: translateX(40%);
+    transform: translateX(0%);
   }
   
   
   .panel--left.is-opened {
-    transform: translateX(-10%);
+    transform: translateX(0%);
   }
   
