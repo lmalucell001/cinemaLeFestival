@@ -1,22 +1,16 @@
 const puces = document.querySelectorAll('#main-navigation li .puce');
 const anchors = document.querySelectorAll('.title-anchor');
-const map = document.querySelector('.maps');
 const contpuces = document.querySelector('.contpuces')
 
 // les puces qui suive le scroll
 
 window.addEventListener('scroll', function () {
     let puceActived = false;
-
-
-
-
-
-    const mapY = map.getBoundingClientRect().y;
-    console.log(mapY)
-    const titleY = title.getBoundingClientRect().y;
-    
     anchors.forEach(function (title, index,) {
+    const titleY = title.getBoundingClientRect().y;
+    console.log(titleY)
+    
+
             if (titleY > 0 && puceActived === false) {
                 puces[index].classList.add('is-active');
                 puceActived = true;
@@ -25,14 +19,10 @@ window.addEventListener('scroll', function () {
 
             }
     
-    
         });
 
-
-
-
-
 });
+
 // rideau quand on part de la page 
 const btn = document.querySelectorAll('.btnanim');
 
