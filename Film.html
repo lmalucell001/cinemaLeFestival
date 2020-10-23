@@ -30,18 +30,20 @@
 
 <body>
     <section id="panels-container">
-        <div class="panel panel--left">
+        <div class="panel panel--left is-opened ">
             <svg xmlns="http://www.w3.org/2000/svg" width="1422.917" height="800" viewBox="0 0 1422.917 800">
                 <path id="slide_gauche" data-name="slide gauche"
-                    d="M0,0V800H1048.417c228.875-191.073,374.5-478.531,374.5-800Z" fill="#e74141" />
+                    d="M0,0V800H1048.417c228.875-191.073,374.5-478.531,374.5-800Z" fill="#810000" />
             </svg>
 
+
         </div>
-        <div class="panel panel--right">
+        <div class="panel panel--right is-opened ">
             <svg xmlns="http://www.w3.org/2000/svg" width="1422.917" height="800" viewBox="0 0 1422.917 800">
                 <path id="slide_droit" data-name="slide droit" d="M1422.917,0V800H374.5C145.625,608.927,0,321.469,0,0Z"
-                    fill="#e74141" />
+                    fill="#810000" />
             </svg>
+
 
         </div>
 
@@ -93,7 +95,7 @@
 
         </header>
 
-       <nav id="main-navigation">
+        <nav id="main-navigation">
             <ul class="contpuces">
                 <li><a href="#ecran1" class="puce puce1"> </a> </li>
                 <li><a href="#ecran2" class="puce puce2"> </a> </li>
@@ -104,12 +106,12 @@
                 <li><a href="#ecran7" class="puce puce7"> </a> </li>
             </ul>
         </nav>
-    
+
 
         <div class="container-fluid">
             <div class="row sectitle" id="ecran0">
                 <div class="col">
-    
+
                     <h1 class="tall">Voici notre selection de film :</h1>
                 </div>
             </div>
@@ -332,79 +334,47 @@
                         </section>
                    
                 </div>
-                <div class="col">
-                    <h2 id="ecran7" class="title-anchor distantdos">Nos Films à l'affiche</h2>
-                    
-                        <section class="center slider2">
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/100_loup/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/Beetlejuice/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/Black_Widow/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/Dark_Shadow/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/Frankenweenie/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/Fritzi/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img
-                                        src="./Img-flm/La_chouette_en_toque/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img src="./Img-flm/Le_peuple_loup/Affiche.jpg"></a>
-                            </div>
-                            <div>
-                                <a href="http://www.google.com"><img
-                                        src="./Img-flm/Le_Quatuor_à_cornes/Affiche.jpg"></a>
-                            </div>
-                        </section>
-                    
-                </div>
                 
+
             </div>
 
-           
-        </div>
-        
 
         </div>
 
 
-        <footer>
+        </div>
+
+
+        <footer id="bar2">
             <div class="container">
                 <div class="row">
                     <!--les boutons menu-->
-                    <div class="col">
-                        <h3>Programmation </h3>
-                    </div>
-                    <div class="col">
+                    <a href="index.html" class="col" style="text-decoration: underline; color: white;">
+                        <h3>Accueil</h3>
+                    </a>
+                    <a href="Film.html" class="col" style="text-decoration: underline; color: white;">
                         <h3>Notre Cinéma</h3>
-                    </div>
-                    <div class="col">
+                    </a>
+                    <a href="Film.html" class="col" style="text-decoration: underline; color: white;">
                         <h3>Contact</h3>
-                    </div>
-                    <div class="col">
+                    </a>
+                    <a href="Film.html" class="col" style="text-decoration: underline; color: white;">
                         <h3>Atelier</h3>
-                    </div>
+                    </a>
                 </div>
                 <div class="row">
-                    <div class=col> <a href="#ecran0"><img src=img-logo\logo.png title="notre logo"
+                    <div class=col> <a href="index.html"><img src=img-logo\logo.png title="notre logo"
                                 alt="notre logo"></a></div>
                     <div class=col>
                         <p></p>
                     </div>
-                    <div class=col><img src=img-logo\pngegg_(9).png title="notre page Facebook"
-                            alt="notre page Facebook">
+                    <div class=col><a href="https://www.facebook.com/cinemalefestival">
+                            <img src=img-logo\pngegg_(9).png title="notre page Facebook" alt="notre page Facebook">
+                        </a>
                     </div>
-                    <div class=col><img src=img-logo\pngegg_(10).png title="notre Instagram" alt="notre Instagram">
+                    <div class=col><a href="https://www.instagram.com/cinemalefestival/">
+                            <img src=img-logo\pngegg_(10).png title="notre Instagram" alt="notre Instagram">
+                        </a>
                     </div>
                 </div>
                 <div class="row">
@@ -483,11 +453,11 @@
                 });
             });
         </script>
-        
+
     </section>
 
 
-    <script src="js/main.js"></script>
+    <script src="js/mainfilm.js"></script>
 </body>
 
 </html>

@@ -7,6 +7,12 @@
     background-size: 100%   ;
     
 }
+#bar2 {
+
+    background-color: #300000;
+    
+}
+
 
 body {
     background-image: url("../img-logo/background-flatter.jpg");
@@ -166,8 +172,8 @@ span.blockservice{
 
 .logo{
     max-width: 65%;
-    margin-top : -45px;
-    margin-bottom: 45px;
+    margin-top : -15%;
+    margin-bottom: 15%;
 }
 .teamso{
         background-image: url(./img-logo/team_bg.png);
