@@ -89,12 +89,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: "←";
 }
 [dir='rtl'] .slick-prev:before
 {
-    background-image: url(Flech-lien_petitD.png);
-    content: '→';
+    content: "←";
 }
 
 .slick-next
@@ -108,12 +107,11 @@
 }
 .slick-next:before
 {
-    background-image: url(Flech-lien_petitD.png);
-    content: '→';
+    content: "→";
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: "→";
 }
 
 /* Dots */

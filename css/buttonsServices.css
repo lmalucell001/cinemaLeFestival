@@ -42,6 +42,10 @@
 	 text-transform: uppercase;
 	 height: 100%;
 	 width: 100%;
+	 min-width: 220px;
+	 min-height: 220px;
+	 max-width: 300px;
+	 max-height: 300px;
 }
  @media (min-width: 12.63%) {
 	 .btn-2 {
