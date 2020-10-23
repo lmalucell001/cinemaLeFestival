@@ -12,6 +12,11 @@ html, body {
       margin: 100px auto;
   }
 
+  .slider2 {
+    width: 75%;
+    margin: 100px auto;
+}
+
   .slick-slide {
     margin: 0px 20px;
   }

@@ -34,7 +34,7 @@
 	 font-size: 100%;
 	 font-weight: 100%;
 	 line-height: 100%;
-	 margin: 100% 100% 100% ;
+	 margin: 100%;
 	 max-width: 150%;
 	 position: relative;
 	 text-decoration: #000;
@@ -42,6 +42,10 @@
 	 text-transform: uppercase;
 	 height: 100%;
 	 width: 100%;
+	 min-width: 220px;
+	 min-height: 220px;
+	 max-width: 300px;
+	 max-height: 300px;
 }
  @media (min-width: 12.63%) {
 	 .btn-2 {
