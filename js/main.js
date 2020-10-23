@@ -55,7 +55,7 @@ btn.forEach(function (button) {
         })
 
        setTimeout(function () {
-           // document.location.href = href
+         document.location.href = href
         }, 1000)
 
 
