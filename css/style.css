@@ -169,4 +169,9 @@ span.blockservice{
     margin-top : -45px;
     margin-bottom: 45px;
 }
-
+.teamso{
+        background-image: url(./img-logo/team_bg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
