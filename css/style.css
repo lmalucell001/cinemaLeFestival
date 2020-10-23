@@ -2,7 +2,10 @@
 
 
 #bar {
-    background-color: #300000;
+    background-image: url("../img-logo/Header.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+    
 }
 
 body {
@@ -135,8 +138,7 @@ span.blockservice{
     margin-top: 50px ;
     margin-bottom: 50px
 }
-<<<<<<< HEAD
-=======
+
 .tall {
     margin-left: 9.41%;
     margin-top: 50px ;
@@ -152,9 +154,7 @@ span.blockservice{
 #ecran1, #ecran2, #ecran3, #ecran5, footer {
     color : #FFF;
 }
-<<<<<<< HEAD
->>>>>>> cc3172043422c4f84d0fc1a75bcd95d6da4d1125
-=======
+
 .suit {
     color: #fff
 }
@@ -163,4 +163,10 @@ span.blockservice{
     height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
     background-size: 100%;
 }
->>>>>>> 371c29510431e53f75e8752b557eb31931f4ddc3
+
+.logo{
+    max-width: 65%;
+    margin-top : -45px;
+    margin-bottom: 45px;
+}
+
