@@ -18,8 +18,8 @@ window.addEventListener('scroll', function () {
         contpuces.classList.add('is-black');
         anchors.forEach(function (title, index,) {
             const titleY = title.getBoundingClientRect().y;
-    
-    
+
+
             if (titleY > 0 && puceActived === false) {
                 puces[index].classList.add('is-activeb');
                 puceActived = true;
@@ -27,8 +27,8 @@ window.addEventListener('scroll', function () {
                 puces[index].classList.remove('is-activeb');
                 puces[index].classList.remove('is-active');
             }
-    
-    
+
+
         });
 
     }
@@ -37,8 +37,8 @@ window.addEventListener('scroll', function () {
         contpuces.classList.remove('is-black');
         anchors.forEach(function (title, index,) {
             const titleY = title.getBoundingClientRect().y;
-    
-    
+
+
             if (titleY > 0 && puceActived === false) {
                 puces[index].classList.add('is-active');
                 puceActived = true;
@@ -46,8 +46,8 @@ window.addEventListener('scroll', function () {
                 puces[index].classList.remove('is-active');
                 puces[index].classList.remove('is-activeb');
             }
-    
-    
+
+
         });
     }
 
@@ -83,9 +83,9 @@ btn.forEach(function (button) {
 
 const panels = document.querySelectorAll('.panel')
 setTimeout(function () {
-  panels.forEach((panel) => {
-    panel.classList.remove('is-opened');
-  })
+    panels.forEach((panel) => {
+        panel.classList.remove('is-opened');
+    })
 }, 1000);
 
 /*

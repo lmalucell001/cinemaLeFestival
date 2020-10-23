@@ -7,19 +7,19 @@ const contpuces = document.querySelector('.contpuces')
 window.addEventListener('scroll', function () {
     let puceActived = false;
     anchors.forEach(function (title, index,) {
-    const titleY = title.getBoundingClientRect().y;
-    console.log(titleY)
-    
+        const titleY = title.getBoundingClientRect().y;
+        console.log(titleY)
 
-            if (titleY > 0 && puceActived === false) {
-                puces[index].classList.add('is-active');
-                puceActived = true;
-            } else {
-                puces[index].classList.remove('is-active');
 
-            }
-    
-        });
+        if (titleY > 0 && puceActived === false) {
+            puces[index].classList.add('is-active');
+            puceActived = true;
+        } else {
+            puces[index].classList.remove('is-active');
+
+        }
+
+    });
 
 });
 
@@ -51,9 +51,9 @@ btn.forEach(function (button) {
 
 const panels = document.querySelectorAll('.panel')
 setTimeout(function () {
-  panels.forEach((panel) => {
-    panel.classList.remove('is-opened');
-  })
+    panels.forEach((panel) => {
+        panel.classList.remove('is-opened');
+    })
 }, 1000);
 
 /*
