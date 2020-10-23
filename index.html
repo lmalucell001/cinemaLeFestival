@@ -85,7 +85,7 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" style="height: 100vh; text-align: center;padding-top: 15%;" id="ecran0">
             <div class="col">
                 <!-- texte de bienvenu-->
                 <h1 class="big">Bienvenue au Cinema Le Festival !</h1>
@@ -165,38 +165,39 @@
             </div>
         </div>
 
-        <div class="row ">
+        <div id="ecran3" class="row " style="height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
+        background-size: 100%;">
             <div class="col">
-                <h2 id="ecran3" class="title-anchor distantdos">Nos Services</h2>
+                <h2 class="title-anchor distantdos">Nos Services</h2>
                 <div class="row">
 
                     <!-- div avec les boutons-->
-                    <div class="col arière2">
+                    <div class="col">
                         <section class="buttons2 ">
                             <span class="btn-2 btn-3 ">
                                 <p class="BS">Initiation dessin animés</p>
                             </span>
                         </section>
                     </div>
-                    <div class="col arière2">
+                    <div class="col ">
                         <section class="buttons2">
                             <span class="btn-2 btn-3">
                                 <p class="BS">Stage réalisation</p>
                             </span>
                         </section>
                     </div>
-                    <div class="col arière2">
+                    <div class="col ">
                         <section class="buttons2">
                             <span class="btn-2 btn-3">
                                 <p class="BS">Projection à la demande</p>
                             </span>
                         </section>
                     </div>
-                    <div class="col arière2">
+                    <div class="col ">
                         <section class="buttons2">
                             <span class="btn-2 btn-3">
-                                <img src=img-logo\Flech-lien.png title="voir plus de services"
-                                    alt="voir plus de services">
+                                <img src=img-logo\Flech-lien.svg title="voir plus de services"
+                                    alt="voir plus de services" style="height: 40%;">
                             </span>
                         </section>
                     </div>
@@ -248,19 +249,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <!-- div contact-->
-                <h2 id="ecran5" class="title-anchor distantdos " class="black">Nos Contacts </h2>
-                <div class="rightText distantuno">
-                    <p>
-                        05.56.51.76.60
-                        contact@cinemalefestival.fr
-                        09.51.99.04.80
-                </div>
-            </div>
-        </div>
+    <div id="ecran5" class="container-fluid" style="padding: 0;">
         <div>
             <div>
                 <iframe
@@ -268,6 +257,24 @@
                     frameborder="0" class="maps" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <!--mettre la carte google ici-->
+        </div>
+        <div style="
+        background-image: url(./img-logo/team_bg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;">
+
+        <div class="row">
+            <div class="col">
+                <!-- div contact-->
+                <h2 class="title-anchor distantdos " class="black">Nos Contacts </h2>
+                <div class="rightText distantuno">
+                    <p>
+                        05.56.51.76.60
+                        contact@cinemalefestival.fr
+                        09.51.99.04.80
+                </div>
+            </div>
         </div>
 
         <div class="row">
@@ -331,6 +338,7 @@
         </div>
     </div>
     </div>
+    </div>
 
 
     <footer id="ecran7" class="title-anchor">
@@ -351,7 +359,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class=col> <img src=img-logo\logo.png title="notre logo" alt="notre logo"></div>
+                <div class=col> <a href="#ecran0"><img src=img-logo\logo.png title="notre logo" alt="notre logo"></a></div>
                 <div class=col>
                     <p></p>
                 </div>
