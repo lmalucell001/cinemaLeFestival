@@ -41,7 +41,7 @@ h3 {
 p {
     font-family: Domine;
     font-size: 15px;
-    color: #fff;
+
     display: center;
     
 
@@ -97,6 +97,8 @@ span.blockservice{
 
 .container-cinema {
     padding-left: 3.16%;
+    background-color : white;
+    
 }
 
 .distantuno {
