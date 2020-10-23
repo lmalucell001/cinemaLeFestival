@@ -88,8 +88,9 @@ p {
 
 .team {
     display : flex;
-    padding-right: 13.27%;
+    padding-left: 13.27%;
 }
+
 .logo{
     width:100%;
     max-width:3.16%;
