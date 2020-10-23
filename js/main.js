@@ -3,6 +3,8 @@ const anchors = document.querySelectorAll('.title-anchor');
 const map = document.querySelector('.maps');
 const contpuces = document.querySelector('.contpuces')
 
+// les puces qui suive le scroll
+
 window.addEventListener('scroll', function () {
     let puceActived = false;
 
@@ -23,7 +25,7 @@ window.addEventListener('scroll', function () {
 
 
     const mapY = map.getBoundingClientRect().y;
-    console.log(mapY)
+    //console.log(mapY)
     if (mapY < 630 && mapY > -580) {
         contpuces.classList.add('is-black');
 
@@ -37,18 +39,34 @@ window.addEventListener('scroll', function () {
 
 
 });
+// rideau quand on part de la page 
+const btn = document.querySelectorAll('.btnanim');
 
-//const btn = document.querySelectorAll('.btnanim');
-
-/*btn.forEach(function (button) {
+btn.forEach(function (button) {
     button.addEventListener('click', function (event) {
         event.preventDefault()
         const href = button.getAttribute('href')
-        console.log(href)
+        //console.log(href)
+
+        const panels = document.querySelectorAll('.panel')
+        console.log('click')
+        panels.forEach((panel) => {
+        panel.classList.add('is-opened')})
+
         setTimeout(function () {
             document.location.href = href
         }, 1000)
+        
 
     })
 })
+
+// rideau quand la page est chargé 
+
+/*
+const panels = document.querySelectorAll('.panel')
+console.log('click')
+panels.forEach((panel) => {
+panel.classList.remove('is-opened')})
+
 */
