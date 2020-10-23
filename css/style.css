@@ -24,14 +24,14 @@ h1 {
 h2 {
     font-family: Montserrat;
     font-size: 35px;
-    color: #fff;
+    
 
 }
 
 h3 {
     font-family: Montserrat;
     font-size: 25px;
-    color: #fff;
+    
     margin-top: 50px;
     margin-bottom: 100px;
     line-height: 45px;
@@ -41,7 +41,6 @@ h3 {
 p {
     font-family: Domine;
     font-size: 15px;
-
     display: center;
     
 
@@ -127,6 +126,8 @@ span.blockservice{
 
 .minLink {
     padding-left: 69.49%;
+    color : #FFF;
+    margin-bottom: 30px;
 }
 
 .big {
@@ -141,7 +142,11 @@ span.blockservice{
 }
 .entitle {
     height: 100vh; text-align: center;padding-top: 15%;
+    color : #FFF;
 }
 .sectitle {
     height: 50vh; text-align: center; padding-top: 5%;
+}
+#ecran1, #ecran2, #ecran3, #ecran5, footer {
+    color : #FFF;
 }
