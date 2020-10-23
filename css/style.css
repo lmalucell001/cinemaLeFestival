@@ -2,7 +2,7 @@
 
 
 #bar {
-    background-color: #E2E1DF;
+    background-color: #300000;
 }
 
 body {
@@ -24,14 +24,14 @@ h1 {
 h2 {
     font-family: Montserrat;
     font-size: 35px;
-    color: #fff;
+    
 
 }
 
 h3 {
     font-family: Montserrat;
     font-size: 25px;
-    color: #fff;
+    
     margin-top: 50px;
     margin-bottom: 100px;
     line-height: 45px;
@@ -41,7 +41,6 @@ h3 {
 p {
     font-family: Domine;
     font-size: 15px;
-    color: #fff;
     display: center;
     
 
@@ -97,6 +96,8 @@ span.blockservice{
 
 .container-cinema {
     padding-left: 3.16%;
+    background-color : white;
+    
 }
 
 .distantuno {
@@ -125,6 +126,8 @@ span.blockservice{
 
 .minLink {
     padding-left: 69.49%;
+    color : #FFF;
+    margin-bottom: 30px;
 }
 
 .big {
@@ -132,3 +135,21 @@ span.blockservice{
     margin-top: 50px ;
     margin-bottom: 50px
 }
+<<<<<<< HEAD
+=======
+.tall {
+    margin-left: 9.41%;
+    margin-top: 50px ;
+    margin-bottom: 50px
+}
+.entitle {
+    height: 100vh; text-align: center;padding-top: 15%;
+    color : #FFF;
+}
+.sectitle {
+    height: 50vh; text-align: center; padding-top: 5%;
+}
+#ecran1, #ecran2, #ecran3, #ecran5, footer {
+    color : #FFF;
+}
+>>>>>>> cc3172043422c4f84d0fc1a75bcd95d6da4d1125

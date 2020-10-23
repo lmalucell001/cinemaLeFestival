@@ -25,8 +25,8 @@ window.addEventListener('scroll', function () {
 
 
     const mapY = map.getBoundingClientRect().y;
-    //console.log(mapY)
-    if (mapY < 630 && mapY > -580) {
+    console.log(mapY)
+    if (mapY < 2100 && mapY > -580) {
         contpuces.classList.add('is-black');
 
     }
