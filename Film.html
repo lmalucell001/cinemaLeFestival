@@ -30,18 +30,20 @@
 
 <body>
     <section id="panels-container">
-        <div class="panel panel--left">
+        <div class="panel panel--left is-opened ">
             <svg xmlns="http://www.w3.org/2000/svg" width="1422.917" height="800" viewBox="0 0 1422.917 800">
                 <path id="slide_gauche" data-name="slide gauche"
-                    d="M0,0V800H1048.417c228.875-191.073,374.5-478.531,374.5-800Z" fill="#e74141" />
+                    d="M0,0V800H1048.417c228.875-191.073,374.5-478.531,374.5-800Z" fill="#810000" />
             </svg>
 
+
         </div>
-        <div class="panel panel--right">
+        <div class="panel panel--right is-opened ">
             <svg xmlns="http://www.w3.org/2000/svg" width="1422.917" height="800" viewBox="0 0 1422.917 800">
                 <path id="slide_droit" data-name="slide droit" d="M1422.917,0V800H374.5C145.625,608.927,0,321.469,0,0Z"
-                    fill="#e74141" />
+                    fill="#810000" />
             </svg>
+
 
         </div>
 
@@ -51,7 +53,7 @@
                     <div>
                         <!--le menu-->
                         <div class="row men1">
-                            <div class="col">
+                            <div class="col" id="ecran1">
                                 <section class="buttons">
 
                                     <a href="Film.html" class="btn btn-1 btnanim">
@@ -78,9 +80,9 @@
                             </div>
                         </div>
                         <div class="row men2">
-                            <div class="col" id="ecran1">
-                                <a href="index.html" >
-                                    <img src=Img-logo\logo.png title="Notre logo" alt="Notre logo">
+                            <div class="col" >
+                                <a href="index.html" class="btnanim" >
+                                    <img src=Img-logo\logo.png class="logo" title="Notre logo" alt="Notre logo">
                                 </a>
                             </div>
                         </div>
@@ -399,10 +401,14 @@
                     <div class=col>
                         <p></p>
                     </div>
-                    <div class=col><img src=img-logo\pngegg_(9).png title="notre page Facebook"
+                    <div class=col><a href="https://www.facebook.com/cinemalefestival">
+                    <img src=img-logo\pngegg_(9).png title="notre page Facebook"
                             alt="notre page Facebook">
+                    </a>
                     </div>
-                    <div class=col><img src=img-logo\pngegg_(10).png title="notre Instagram" alt="notre Instagram">
+                    <div class=col><a href="https://www.instagram.com/cinemalefestival/">
+                            <img src=img-logo\pngegg_(10).png title="notre Instagram" alt="notre Instagram">
+                        </a>
                     </div>
                 </div>
                 <div class="row">
@@ -485,7 +491,7 @@
     </section>
 
 
-    <script src="js/main.js"></script>
+    <script src="js/mainfilm.js"></script>
 </body>
 
 </html>
