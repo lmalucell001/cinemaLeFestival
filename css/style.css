@@ -2,11 +2,11 @@
 
 
 #bar {
-    background-color: #E2E1DF;
+    background-color: #300000;
 }
 
 body {
-    background-image: url("../img-logo/background-flatter.png");
+    background-image: url("../img-logo/background-flatter.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -24,14 +24,14 @@ h1 {
 h2 {
     font-family: Montserrat;
     font-size: 35px;
-    color: #fff;
+    
 
 }
 
 h3 {
     font-family: Montserrat;
     font-size: 25px;
-    color: #fff;
+    
     margin-top: 50px;
     margin-bottom: 100px;
     line-height: 45px;
@@ -41,7 +41,6 @@ h3 {
 p {
     font-family: Domine;
     font-size: 15px;
-
     display: center;
     
 
@@ -119,7 +118,7 @@ span.blockservice{
 }
 
 
-.ariere1{
+.arière1{
     margin-left: 15.67%;
     max-width: 17.75% ;
 }
@@ -127,6 +126,8 @@ span.blockservice{
 
 .minLink {
     padding-left: 69.49%;
+    color : #FFF;
+    margin-bottom: 30px;
 }
 
 .big {
@@ -134,6 +135,8 @@ span.blockservice{
     margin-top: 50px ;
     margin-bottom: 50px
 }
+<<<<<<< HEAD
+=======
 .tall {
     margin-left: 9.41%;
     margin-top: 50px ;
@@ -141,7 +144,23 @@ span.blockservice{
 }
 .entitle {
     height: 100vh; text-align: center;padding-top: 15%;
+    color : #FFF;
 }
 .sectitle {
     height: 50vh; text-align: center; padding-top: 5%;
 }
+#ecran1, #ecran2, #ecran3, #ecran5, footer {
+    color : #FFF;
+}
+<<<<<<< HEAD
+>>>>>>> cc3172043422c4f84d0fc1a75bcd95d6da4d1125
+=======
+.suit {
+    color: #fff
+}
+
+.serv {
+    height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
+    background-size: 100%;
+}
+>>>>>>> 371c29510431e53f75e8752b557eb31931f4ddc3
