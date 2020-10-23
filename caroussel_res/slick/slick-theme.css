@@ -89,11 +89,11 @@
 }
 .slick-prev:before
 {
-    background-image: url("game.ico");
+    content: "←";
 }
 [dir='rtl'] .slick-prev:before
 {
-    background-image: url("game.ico");
+    content: "←";
 }
 
 .slick-next
@@ -107,11 +107,11 @@
 }
 .slick-next:before
 {
-    background-image: url("game.ico");
+    content: "→";
 }
 [dir='rtl'] .slick-next:before
 {
-    background-image: url("game.ico");
+    content: "→";
 }
 
 /* Dots */
