@@ -2,7 +2,10 @@
 
 
 #bar {
-    background-color: #300000;
+    background-image: url("../img-logo/Header.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+    
 }
 
 body {
@@ -157,4 +160,9 @@ span.blockservice{
 .serv {
     height: 100vh; background: url('./img-logo/service_bg.png') no-repeat;
     background-size: 100%;
+}
+.logo{
+    max-width: 60%;
+    margin-top : -45px;
+    margin-bottom: 45px;
 }
