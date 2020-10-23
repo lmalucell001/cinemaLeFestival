@@ -51,12 +51,13 @@ btn.forEach(function (button) {
         const panels = document.querySelectorAll('.panel')
         console.log('click')
         panels.forEach((panel) => {
-        panel.classList.add('is-opened')})
+            panel.classList.add('is-opened')
+        })
 
         setTimeout(function () {
             document.location.href = href
         }, 1000)
-        
+
 
     })
 })
