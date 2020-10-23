@@ -90,10 +90,7 @@ p {
     display : flex;
     padding-left: 13.27%;
     padding-right: 13.27%;
-    background-image: url(./img-logo/team_bg.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
+    
 }
 
 .logo{
@@ -185,14 +182,8 @@ span.blockservice{
     margin-left: 12.5%;
 }
 .teamso{
-        background-image: url(./img-logo/team_bg.png);
+        background-image: url(../img-logo/team_bg.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
-}
-.backtry{
-    background-image: url(./img-logo/team_bg.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
 }
