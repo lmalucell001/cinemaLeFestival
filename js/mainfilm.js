@@ -11,7 +11,7 @@ window.addEventListener('scroll', function () {
         console.log(titleY)
 
 
-        if (titleY > 0 && puceActived === false) {
+        if (titleY > 10 && puceActived === false) {
             puces[index].classList.add('is-active');
             puceActived = true;
         } else {
