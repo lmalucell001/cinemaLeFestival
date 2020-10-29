@@ -7,8 +7,8 @@ ul {
     display: block;
     position: relative;
     z-index: 10;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border: 5px solid white;
 }
 

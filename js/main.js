@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
 
     const mapY = map.getBoundingClientRect().y;
     console.log(mapY)
-    if (mapY < 2100 && mapY > -580) {
+    if (mapY < 2100 && mapY > 200) {
         contpuces.classList.add('is-black');
         anchors.forEach(function (title, index,) {
             const titleY = title.getBoundingClientRect().y;

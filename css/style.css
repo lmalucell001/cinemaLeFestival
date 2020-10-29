@@ -9,7 +9,7 @@
 }
 #bar2 {
 
-    background-color: #300000;
+    background-color: #810000;
     
 }
 
@@ -34,6 +34,7 @@ h1 {
 h2 {
     font-family: domine;
     font-size: 35px;
+    font-weight: bold;
     
 
 }
@@ -59,10 +60,15 @@ p {
 .rightText {
     margin-bottom: 100px;
     line-height: 45px;
-    
+    color: white;
 
 }
+.rightTextSec {
+    margin-bottom: 100px;
+    line-height: 45px;
+    color: black;
 
+}
 
 .cinemaLateral{
     width: 40%; 
@@ -125,6 +131,16 @@ span.blockservice{
     margin-bottom: 25px ;
     
 }
+.uno {
+    margin-left: 9.41%;
+    
+    
+}
+.dos {
+    margin-left: 15.67%;
+    
+    
+}
 .BS {
     font-family: Domine;
     color : black;
@@ -141,6 +157,7 @@ span.blockservice{
     padding-left: 69.49%;
     color : #FFF;
     margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 .big {
@@ -187,4 +204,12 @@ span.blockservice{
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
+}
+.right-color {
+    color: white;
+}
+
+.last-row{
+    
+    margin-bottom: 30px;
 }
