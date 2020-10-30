@@ -213,3 +213,9 @@ span.blockservice{
     
     margin-bottom: 30px;
 }
+.filmslide {
+    size: 90%;
+}
+.filmslide:hover {
+    size: 100%;
+}

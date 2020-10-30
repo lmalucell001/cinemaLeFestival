@@ -11,14 +11,16 @@ html, body {
 	  width: 50%;
 	  margin: 100px auto;
   }
+  
 
   .slick-slide {
 	margin: 0px 20px;
   }
 
   .slick-slide img {
-	width: 100%;
+	width: 80%;
   }
+  
 
   .slick-prev:before,
   .slick-next:before {
