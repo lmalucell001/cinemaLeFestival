@@ -193,9 +193,9 @@ span.blockservice{
 }
 
 .logo{
-    max-width: 60%;
-    margin-top : -8%;
-    margin-bottom: 15%;
+    max-width: 30%;
+    margin-top : -10%;
+    margin-bottom: 30%;
     margin-right: 50%;
     margin-left: 12.5%;
 }
@@ -212,10 +212,4 @@ span.blockservice{
 .last-row{
     
     margin-bottom: 30px;
-}
-.filmslide {
-    size: 90%;
-}
-.filmslide:hover {
-    size: 100%;
 }
